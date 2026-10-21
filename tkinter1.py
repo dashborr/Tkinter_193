@@ -58,3 +58,4 @@ btn = tk.Button(
     pady=5,
     command=hasil_prediksi,
 )
+btn.pack(pady=(20, 10))
