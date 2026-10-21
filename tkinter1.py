@@ -69,3 +69,5 @@ label_hasil = tk.Label(
     fg="#c62828",
 )
 label_hasil.pack(pady=(5, 15))
+
+root.mainloop()
