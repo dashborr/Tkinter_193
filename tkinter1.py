@@ -59,3 +59,6 @@ btn = tk.Button(
     command=hasil_prediksi,
 )
 btn.pack(pady=(20, 10))
+
+# ---------- Label luaran ----------
+tk.Label(root, text="Prodi yang direkomendasikan:", font=("Arial", 10)).pack()
