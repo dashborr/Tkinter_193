@@ -37,3 +37,9 @@ mapel = [
 ]
 
 entries = []
+for i, nama in enumerate(mapel):
+    kolom = (i // 5) * 2      # 0 atau 2
+    baris = i % 5
+    tk.Label(frame_input, text=nama, font=("Arial", 10), anchor="w", width=16).grid(
+        row=baris, column=kolom, padx=(5, 5), pady=6, sticky="w"
+    )
