@@ -62,3 +62,9 @@ btn.pack(pady=(20, 10))
 
 # ---------- Label luaran ----------
 tk.Label(root, text="Prodi yang direkomendasikan:", font=("Arial", 10)).pack()
+label_hasil = tk.Label(
+    root,
+    text="-",
+    font=("Arial", 16, "bold"),
+    fg="#c62828",
+)
