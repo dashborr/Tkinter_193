@@ -30,3 +30,8 @@ frame_input = tk.LabelFrame(
     root, text=" Masukkan Nilai Mata Pelajaran ", font=("Arial", 11), padx=20, pady=15
 )
 frame_input.pack(padx=30, pady=10)
+
+mapel = [
+    "Matematika", "Bahasa Indonesia", "Bahasa Inggris", "Fisika", "Kimia",
+    "Biologi", "Ekonomi", "Geografi", "Sosiologi", "Sejarah",
+]
