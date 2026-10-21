@@ -43,3 +43,6 @@ for i, nama in enumerate(mapel):
     tk.Label(frame_input, text=nama, font=("Arial", 10), anchor="w", width=16).grid(
         row=baris, column=kolom, padx=(5, 5), pady=6, sticky="w"
     )
+    e = tk.Entry(frame_input, width=8, justify="center", font=("Arial", 10))
+    e.grid(row=baris, column=kolom + 1, padx=(0, 25), pady=6)
+    entries.append(e)
