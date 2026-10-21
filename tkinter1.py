@@ -24,3 +24,9 @@ label_judul = tk.Label(
     fg="#1a3c6e",
 )
 label_judul.pack(pady=(25, 15))
+
+# ---------- Frame input (10 nilai mapel, 2 kolom x 5 baris) ----------
+frame_input = tk.LabelFrame(
+    root, text=" Masukkan Nilai Mata Pelajaran ", font=("Arial", 11), padx=20, pady=15
+)
+frame_input.pack(padx=30, pady=10)
