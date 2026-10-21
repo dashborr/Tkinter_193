@@ -46,3 +46,15 @@ for i, nama in enumerate(mapel):
     e = tk.Entry(frame_input, width=8, justify="center", font=("Arial", 10))
     e.grid(row=baris, column=kolom + 1, padx=(0, 25), pady=6)
     entries.append(e)
+
+# ---------- Button ----------
+btn = tk.Button(
+    root,
+    text="Hasil Prediksi",
+    font=("Arial", 12, "bold"),
+    bg="#2e7d32",
+    fg="white",
+    width=18,
+    pady=5,
+    command=hasil_prediksi,
+)
