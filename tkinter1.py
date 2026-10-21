@@ -23,3 +23,4 @@ label_judul = tk.Label(
     font=("Arial", 18, "bold"),
     fg="#1a3c6e",
 )
+label_judul.pack(pady=(25, 15))
