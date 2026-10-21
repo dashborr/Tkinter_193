@@ -35,3 +35,5 @@ mapel = [
     "Matematika", "Bahasa Indonesia", "Bahasa Inggris", "Fisika", "Kimia",
     "Biologi", "Ekonomi", "Geografi", "Sosiologi", "Sejarah",
 ]
+
+entries = []
